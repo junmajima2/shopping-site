@@ -1,0 +1,147 @@
+body {
+  background-color:#f9f8f6;
+}
+ul {
+  list-style-type: none;
+  margin: 0px 0;
+}
+.container {
+  /*margin-top:5px;*/
+  /*margin-bottom:5px;*/
+  /*padding-top: 0;*/
+}
+
+/** Color **/
+/***
+#f9f8f6
+#887f69
+#e2ddd4
+#b0b0b0
+#9d1a2d
+***/
+.c696969 {background-color:#696969;}
+.khaki {background-color: khaki;}
+.cEEE {background-color: deepskyblue;}
+.c848484 {background-color: orange;}
+
+
+/*****
+  Header
+*****/
+#cont-header {margin-top: 50px;}
+#header-logo img {width: 120px;}
+#header-menu img {width: 100%;}
+#header-menu #menu {
+  text-align: right;
+}
+#header-menu #icons li,
+#header-menu #menu li {
+  display:inline-block;
+
+}
+#header-menu #menu li p {
+  font-size: 13px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding:0 10px;
+}
+
+/*****
+  Main Box : #cont-main
+*****/
+#main-box {
+  padding:0;
+}
+#eye-catch {}
+
+/*****
+  Side Bar : #cont-main #side-bar
+*****/
+#side-bar {}
+.side-block {
+  margin-bottom: 8px;
+}
+.side-block h5 {
+  text-align: center;
+  font-size: 11px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background-color: #887f69;
+  color: #f9f8f6;
+  padding: 12px 5px;
+  margin-bottom: 1px;
+}
+.side-block ul {
+}
+.side-block ul li {
+  font-size: 11px;
+  font-size: 1.1rem;
+  background-color: #FFF;
+  margin-bottom: 2px;
+  padding: 12px;
+}
+
+.side-block-item {
+  padding: 10px 10px 5px 10px;
+  background-color: #FFF;
+}
+.side-block-item img {width: 100%;}
+.side-block-item-info {
+  word-wrap: break-word;
+  font-size: 11px;
+  font-size: 1.1rem;
+}
+.side-block-item-info button.btn-more {
+  display:block;
+  text-align: center;
+  vertical-align: top;
+  margin: 5px auto;
+  border-radius: 18px 18px 18px 18px;
+  background-color: #887f69;
+  color: #FFF;
+}
+.side-block-item-info img {
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+}
+
+
+/*****
+  Footer : #cont-footer
+*****/
+#cont-footer {
+margin-bottom:100px;
+}
+#page-top {
+  height: 40px;
+  text-align: right;
+  border-bottom: 3px solid #887f69;
+}
+#page-top p {
+  font-weight: bold;
+}
+#page-top p i {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: baseline;
+  font-weight: bold;
+  padding-bottom: 13px;
+}
+
+#footer-navi {
+text-align: center;
+font-size:12px;
+font-size:1.2rem;
+padding-top:40px;
+}
+#copyright {
+  text-align:center;
+}
+small.copyright {
+  font-weight: bold;
+  font-size:10px;
+  font-size:1.0rem;
+  color: #b0b0b0;
+}

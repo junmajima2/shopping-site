@@ -194,18 +194,22 @@ small.copyright {
 .item-container-top .item-container-top-tab {
   margin: 20px 0;	
 }
-.item-container-top .item-boxs {
-  width: 712.391px;
-}
+.item-container-top .item-boxs {}
+.item-container-top .item-box.item-box-center,
 .item-container-top .item-box {
-  width: 33%;
+  box-sizing: border-box;
+  width: 33.12%;
   margin: 0;
-  margin-right: 2px;
   margin-bottom: 2px;
   padding: 15px;
   background-color: #FFF;
 }
+.item-container-top .item-box.item-box-center {
+  margin-right: 2px;
+  margin-left: 2px;
+}
 .item-container-top .item-box img {
+  width: 100%;
 }
 .item-container-top .item-box p.item-info {
   font-family: 'Hiragino Kaku Gothic Pro';

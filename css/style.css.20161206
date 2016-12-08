@@ -195,13 +195,16 @@ small.copyright {
   margin: 20px 0;	
 }
 .item-container-top .item-boxs {
-  width: 712.391px;
+  background-color: #EEE;
 }
 .item-container-top .item-box {
-  width: 33%;
-  margin: 0;
-  margin-right: 2px;
-  margin-bottom: 2px;
+  /*width: 32.6%;*/
+  /*width: 232.7px;*/
+  width: 235.8px;
+  /*height: 300px;*/
+  /*margin: 2px 2px 2px 0px;*/
+  margin: 0px 1px 1px 0px;
+  /*margin-bottom: 2px;*/
   padding: 15px;
   background-color: #FFF;
 }
@@ -213,12 +216,6 @@ small.copyright {
   font-size:1.1rem;
 }
 .item-container-top .item-box p.item-price {
-}
-
-.item-container-top .item-boxs2 {
-  width: 690px;
-  background-color: #696969;
-  
 }
 .item-container-top .item-box-guide {
   padding: 15px;

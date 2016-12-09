@@ -49,6 +49,7 @@ ul {
   Main Box : #cont-main
 *****/
 #main-box {
+  max-width: 700px;
   padding:0;
 }
 #eye-catch {}
@@ -88,13 +89,13 @@ ul {
 .side-block-item img {width: 100%;}
 .side-block-item-info {
   word-wrap: break-word;
-  font-size: 11px;
-  font-size: 1.1rem;
+  font-size: 13px;
+  font-size: 1.3rem;
 }
 .side-block-item-info button.btn-more {
-  width:206px;
-  height:60px;
-  display:block;
+  width: 206px;
+  height: 60px;
+  display: block;
   text-align: center;
   vertical-align: top;
   margin: 5px auto;
@@ -113,8 +114,8 @@ ul {
   Footer : #cont-footer
 *****/
 #cont-footer {
-  margin-top:60px;
-  margin-bottom:100px;
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
 #page-top {
   height: 40px;
@@ -134,17 +135,17 @@ ul {
 
 #footer-navi {
   text-align: center;
-  font-size:12px;
-  font-size:1.2rem;
-  padding-top:40px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  padding-top: 40px;
 }
 #copyright {
   text-align:center;
 }
 small.copyright {
   font-weight: bold;
-  font-size:10px;
-  font-size:1.0rem;
+  font-size: 10px;
+  font-size: 1.0rem;
   color: #b0b0b0;
 }
 
@@ -156,8 +157,9 @@ small.copyright {
 .owl-theme .owl-dots {
   /*text-align: center;*/
   text-align: left;
-  -webkit-tap-highlight-color: transparent; }
-  .owl-theme .owl-dots .owl-dot {
+  -webkit-tap-highlight-color: transparent;
+}
+.owl-theme .owl-dots .owl-dot {
   display: inline-block;
   zoom: 1;
   *display: inline;
@@ -182,6 +184,7 @@ small.copyright {
 }
 
 
+.item-container-top {}
 .item-container-top .item-box p.item-info,
 .item-container-top .item-box p.item-price,
 .item-container-top .item-boxs,
@@ -189,16 +192,13 @@ small.copyright {
   margin:0;
   padding:0;
 }
-.item-container-top {
-}
 .item-container-top .item-container-top-tab {
-  margin: 20px 0;	
+  margin: 20px 0;
 }
 .item-container-top .item-boxs {}
-.item-container-top .item-box.item-box-center,
 .item-container-top .item-box {
   box-sizing: border-box;
-  width: 33.12%;
+  min-width: 232px;
   margin: 0;
   margin-bottom: 2px;
   padding: 15px;
@@ -213,8 +213,8 @@ small.copyright {
 }
 .item-container-top .item-box p.item-info {
   font-family: 'Hiragino Kaku Gothic Pro';
-  font-size:11px;
-  font-size:1.1rem;
+  font-size: 11px;
+  font-size: 1.1rem;
 }
 .item-container-top .item-box p.item-price {
 }
@@ -226,7 +226,7 @@ small.copyright {
 }
 .item-container-top .item-box-guide {
   padding: 15px;
-  min-height:290px;
+  min-height: 290px;
   background-color: #FFF;
 }
 .item-container-top .item-box-guide h3 {
@@ -236,19 +236,19 @@ small.copyright {
   font-weight: bold;
 }
 .item-container-top .item-box-guide h4 {
-  margin-top:10px;
-  margin-bottom:5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
   color: #887f69;
   font-size: 12px;
   font-size: 1.2rem;
   font-weight: bold;
 }
 .item-container-top .item-box-guide .guide-info {
-  margin:5px 0;
+  margin: 5px 0;
   color: #000;
   font-size: 11px;
   font-size: 1.1rem;
 }
 .item-container-top .item-box-guide .img-cards {
-  width:100%;
+  width: 100%;
 }

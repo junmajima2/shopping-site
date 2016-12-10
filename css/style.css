@@ -348,6 +348,51 @@ margin-left:6px;
 }
 
 /***** LIST PAGE *****/
+#bread {
+  box-sizing: border-box;
+  height:34px;
+  background-color: #e8e4da;
+  border-radius: 3px;
+  padding: 10px;
+  color: #887f69;
+}
+#bread ul li {
+  display: inline-block;
+}
+#bread ul li span.sep {
+  color: #abb4bf;
+}
 
+#cat-banner {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height:170px;
+}
+#cat-banner img {
+  width:100%;
+}
+
+.pager {
+  box-sizing: border-box;
+  display: block;
+  width: 121px;
+  height: 40px;
+  margin-top: 20px;
+  padding: 14px 40px;
+  line-height: 14px;
+  
+  background-color: #887f69;
+  color: #FFF;
+  font-weight: bold;
+}
+.pager.back {float:left;}
+.pager.next {float:right;}
 
 /***** PRODUCT PAGE *****/
+
+
+
+
+
+
+

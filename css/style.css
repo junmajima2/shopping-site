@@ -397,12 +397,13 @@ ul, li {
   background-color: #FFFFFF;
 }
 
-#item-details h1.item-name {
+h1.item-name {
   font-size: 14px;
   font-size: 1.4rem;
   font-weight: bold;
 }
-.item-number{
+
+.item-number {
   color:#a6a6a6;
   text-align: right;
   font-size: 10px;
@@ -541,23 +542,27 @@ input[type=radio]:checked + .check_css:before {
 }
 
 .item-quantity {
-background-color: #696969;
+margin:0;
+padding:0;
 }
 .item-quantity > div > img {width:100%;}
-.item-quantity > div > p {background-color: #EEE;}
+.item-quantity > div > p {
+background-color: red;
+margin:0;
+padding:0;
+}
 .item-quantity > div > p.price-area {font-style: italic;}
 .item-quantity > div > p.price-area span.yen {color:#e80f66;font-size:14px;}
 .item-quantity > div > p.price-area span.price {color:#e80f66;font-size:22px;}
 .item-quantity > div > p.price-area span.tax {color:#000;font-size:14px;}
 .item-quantity > div > p > input.text {
   border-radius: 0px;
+margin:0;
+padding:0;
 }
-img.tab {
-  padding: 20px 0;
-}
-div.tab {
-  padding: 20px 0;
+.quantity-block {
   border-top: 1px solid #e3e8cf;
+background-color: #696969;
 }
 
 .add-cart {
@@ -573,7 +578,7 @@ div.tab {
   border-top: 1px solid #e3e8cf;
 }
 .item-description h3 {
-  padding: 20px 0;
+  padding: 30px 0 0px 0;
   font-size: 16px;
   font-size: 1.6rem;
   font-weight: bold;

@@ -69,7 +69,7 @@ ul, li {
 #side-bar {min-width: 219px;}
 #cont-footer {
   margin-top: 60px;
-  margin-bottom: 100px;
+  margin-bottom: 160px;
 }
 
 /*****
@@ -170,7 +170,7 @@ ul, li {
 }
 .side-block-item.search input.search {
   box-sizing: border-box;
-  width: 144px; /**width: 178px;**/
+  width: 144px;
   height: 30px;
   margin:0;
   padding:0;
@@ -306,6 +306,7 @@ ul, li {
   font-size: 1.2rem;
 }
 .item-container-top .item-box p.item-price {
+  margin:15px 0;
   font-size: 12px;
   font-size: 1.2rem;
 }
@@ -392,7 +393,6 @@ ul, li {
 /***** PRODUCT PAGE *****/
 #item-details {
   box-sizing: border-box;
-  /*height: 1313px;*/
   padding: 40px 60px;
   background-color: #FFFFFF;
 }
@@ -409,18 +409,6 @@ h1.item-name {
   font-size: 10px;
   font-size: 1.0rem;
 }
-/*
-#item-details h1 > small {
-  display:block;
-  color:#a6a6a6;
-  right:0px;
-  font-weight: normal;
-  text-align: right;
-  font-size: 10px;
-  font-size: 1.0rem;
-  background-color: #EEE;
-}
-*/
 #item-details > div {
   margin:0;
   padding:0;
@@ -464,6 +452,9 @@ h1.item-name {
 
 .item-color {
   border-top: 1px solid #e3e8cf;
+}
+.item-color > img {
+  padding: 20px 0;
 }
 .item-description table,
 .item-color table {
@@ -515,7 +506,6 @@ input[type=radio] {
   width: 16px;
   height: 16px;
   border: 1px solid #e2ddd4;
-  /*border-radius: 6px;*/
   border-radius: 0px;
   content: '';
 }
@@ -542,27 +532,31 @@ input[type=radio]:checked + .check_css:before {
 }
 
 .item-quantity {
-margin:0;
-padding:0;
+  margin:0;
+  padding:0;
 }
-.item-quantity > div > img {width:100%;}
+.item-quantity > div.quantity-block {
+  border-top: 1px solid #e3e8cf;
+  height: 75px;
+  padding: 10px 0;
+}
 .item-quantity > div > p {
-background-color: red;
-margin:0;
-padding:0;
+  margin:0;
+  padding:0;
 }
-.item-quantity > div > p.price-area {font-style: italic;}
-.item-quantity > div > p.price-area span.yen {color:#e80f66;font-size:14px;}
-.item-quantity > div > p.price-area span.price {color:#e80f66;font-size:22px;}
-.item-quantity > div > p.price-area span.tax {color:#000;font-size:14px;}
+.item-quantity > div > p.title {
+  margin: 20px 0;
+  width: 120px;
+}
+.item-quantity > div > p.value-area {margin: 10px 0;}
+.item-quantity > div > p.value-area span {font-style: italic;}
+.item-quantity > div > p.value-area span.yen {color:#e80f66;font-size:14px;}
+.item-quantity > div > p.value-area span.price {color:#e80f66;font-size:22px;}
+.item-quantity > div > p.value-area span.tax {color:#000;font-size:14px;}
 .item-quantity > div > p > input.text {
   border-radius: 0px;
-margin:0;
-padding:0;
-}
-.quantity-block {
-  border-top: 1px solid #e3e8cf;
-background-color: #696969;
+  margin:0;
+  padding:0;
 }
 
 .add-cart {

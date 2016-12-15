@@ -441,7 +441,7 @@ h1.item-name {
   margin-bottom: 8.175px;
   list-style: none;
   display: inline-block;
-  background-color: blue;
+  /*background-color: blue;*/
 }
 #list-img li img {
   width: 100%;
@@ -493,7 +493,7 @@ input[type=radio] {
   cursor: pointer;
 }
 .check_css:hover:after {
-  border-color: #0171bd;
+  border-color: #887f69;
 }
 .check_css:after {
   -webkit-transition: border-color 0.2s linear;
@@ -556,7 +556,7 @@ input[type=radio]:checked + .check_css:before {
 .item-quantity > div > p > input.text {
   border-radius: 0px;
   margin:0;
-  padding:0;
+  padding: 10px;
 }
 
 .add-cart {

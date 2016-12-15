@@ -519,8 +519,8 @@ input[type=radio] {
   margin-top: -7px;
   width: 5px;
   height: 9px;
-  border-right: 1px solid #0171bd;
-  border-bottom: 1px solid #0171bd;
+  border-right: 1px solid #887f69;
+  border-bottom: 1px solid #887f69;
   content: '';
   opacity: 0;
   -webkit-transform: rotate(45deg);

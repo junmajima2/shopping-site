@@ -592,3 +592,38 @@ input[type=radio]:checked + .check_css:before {
   font-size: 1.4rem;
 }
 
+
+/*@media (max-width: 768px) {*/
+
+@media screen and (max-width: 768px) {
+
+/*****
+  Header
+*****/
+	#header-logo img {width: 120px; margin:0px 80px; background-color:#EEE;}
+	/*#header-menu img {width: 100%;}*/
+	#header-menu #menu {
+		display: none;
+		background-color: #EEE;
+		/*
+	  position: absolute;
+	  right:0;
+	  bottom:0;
+	  text-align: right;
+		*/
+	}
+	#header-menu #icons li,
+	#header-menu #menu li {
+	  display: inline-block;
+	  line-height: 8px;
+	}
+	#header-menu #menu li a {
+	  padding-left: 18px;
+	  display: block;
+	}
+	#header-menu #menu li:last-child a {
+	  padding-left: 10px;
+	}
+
+
+}

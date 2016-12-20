@@ -593,14 +593,20 @@ input[type=radio]:checked + .check_css:before {
 }
 
 
-/*@media (max-width: 768px) {*/
-
 @media screen and (max-width: 768px) {
 
 /*****
   Header
 *****/
-	#header-logo img {width: 120px; margin:0px 80px; background-color:#EEE;}
+body {
+  width:100%;
+}
+	#header-logo img {
+	  display: block;
+	  width: 200px;
+	  margin:0px auto;
+	  background-color:#EEE;
+	}
 	/*#header-menu img {width: 100%;}*/
 	#header-menu #menu {
 		display: none;
@@ -623,6 +629,105 @@ input[type=radio]:checked + .check_css:before {
 	}
 	#header-menu #menu li:last-child a {
 	  padding-left: 10px;
+	}
+
+	.item-container-top .item-boxs {}
+	.item-container-top .item-box {
+	  /*min-width: 232px;*/
+	  margin: 0;
+	  margin-bottom: 2px;
+	  padding: 15px;
+	  background-color: #FFF;
+	
+	  color:#000;
+	}
+	.item-container-top .item-box-guide {
+	  width:100%;
+	  margin:0;
+	  margin-bottom: 10px;
+	  padding: 20px;
+	  /*width:347px;*/
+	  /*height:264px;*/
+	  background-color: #FFF;
+	}
+	.item-container-top .item-box-guide.right {
+	  margin-left:6px;
+	}
+	.item-container-top .item-box-guide h3 {
+	  color: #887f69;
+	  font-size: 16px;
+	  font-size: 1.6rem;
+	  font-weight: bold;
+	}
+	.item-container-top .item-box-guide h4 {
+	  margin-top: 10px;
+	  margin-bottom: 5px;
+	  color: #887f69;
+	  font-size: 12px;
+	  font-size: 1.2rem;
+	  font-weight: bold;
+	}
+	.item-container-top .item-box-guide .guide-info {
+	  margin: 5px 0;
+	  color: #000;
+	  font-size: 11px;
+	  font-size: 1.1rem;
+	}
+	.item-container-top .item-box-guide .img-cards {
+	  width: 100%;
+	}
+
+	/******
+	  Side Block
+	******/
+	/*** search ***/
+	.side-block-item.search {
+	  /*padding: 15px 22px 5px 22px;*/
+	  /*text-align: left;*/
+	}
+	.side-block-item.search img.tab-search {
+	  /*width: 89px;*/
+	  display: none;
+	}
+	.side-block-item.search form {
+	  width: 100%;
+	}
+	.side-block-item.search input.search {
+	  box-sizing: border-box;
+	  /*width: 144px;*/
+	  width: 244px;
+	  height: 60px;
+	  margin:0;
+	  padding:0;
+	  padding-left: 10px;
+	  float:left;
+	
+	  border-radius: 0px;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  border:0px;
+	
+	  background-color: #eeeeee;
+	}
+	.side-block-item.search input.search-submit {
+	  box-sizing: border-box;
+	  float:left;
+	  width: 30px;
+	  height: 30px;
+	  padding: 7px;
+	  background-color: #eeeeee;
+	}
+
+	.side-block-item.item-info {
+	  height: 270px;
+	  padding: 10px 10px 5px 10px;
+	  background-color: #FFF;
+	  text-align: center;
+	}
+	.side-block-item img {float:left; width: 50%;}
+	.side-block-item-info {
+	  text-align: left;
+	  word-wrap: break-word;
 	}
 
 

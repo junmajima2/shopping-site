@@ -1,4 +1,7 @@
-* {}
+html, * {
+  margin:0;
+  padding:0;
+}
 body {
   font-family: "Hiragino Kaku Gothic ProN","Meiryo", sans-serif;
   color:#000;
@@ -43,6 +46,7 @@ ul, li {
   margin:0;
   padding:0;
 }
+
 /****
  Color 
 ****/
@@ -68,7 +72,7 @@ ul, li {
 }
 #cont-main {}
 #main-box {
-max-width: 700px;
+  max-width: 700px;
 }
 .container {}
 #side-bar {
@@ -327,7 +331,6 @@ max-width: 700px;
 
 .item-container-top .item-boxs2 {
   width: 690px;
-  background-color: #696969;
 }
 .item-container-top .item-box-guide {
   margin:0;
@@ -368,7 +371,7 @@ max-width: 700px;
   box-sizing: border-box;
   height:34px;
   margin-bottom: 10px;
-  background-color: #e8e4da;:
+  background-color: #e8e4da;
   border-radius: 3px;
   padding: 10px;
   color: #887f69;
@@ -455,14 +458,12 @@ h1.item-name {
   margin-bottom: 8.175px;
   list-style: none;
   display: inline-block;
-  /*background-color: blue;*/
 }
 #list-img li img {
   width: 100%;
   margin:0;
   cursor: pointer;
 }
-
 
 .item-color {
   border-top: 1px solid #e3e8cf;
@@ -486,11 +487,18 @@ h1.item-name {
   color: #887f69;
 }
 .item-description table th,
+.item-color table td,
+.item-color table th {
+  width:33.3%;
+  margin:0;
+  text-align: center;
+}
+.item-description table th,
 .item-color table th {
   background-color: #f9f9f5;
 }
 .item-description table th {
-  width:162px;
+  width:25%;
 }
 
 
@@ -502,7 +510,7 @@ input[type=radio] {
   transition: background-color 0.2s linear;
   position: relative;
   display: inline-block;
-  padding: 0 0 0 42px;
+  padding: 0 0 0 60px;
   vertical-align: middle;
   cursor: pointer;
 }
@@ -607,12 +615,14 @@ input[type=radio]:checked + .check_css:before {
 }
 
 
-/*@media screen and (max-width: 768px) {*/
 @media screen and (max-width: 640px) {
 
+	html {margin:0;padding:0;}
 	body {
 	  width: 100%;
 	  text-align: center;
+	  margin:0;
+	  padding:0;
 	}
 	.pc { display:none; }
 	.sp { display:inline; }
@@ -626,7 +636,7 @@ input[type=radio]:checked + .check_css:before {
 	  margin-top: 10px;
 	}
 	#cont-main {}
-	#main-box {margin:0;}
+	#main-box {margin:0;padding:0;}
 	.container {}
 	#side-bar {}
 	#cont-footer {
@@ -764,7 +774,6 @@ input[type=radio]:checked + .check_css:before {
 	/*** search ***/
 	.side-block-item.search {}
 	.side-block-item.search img.tab-search {
-	  /*width: 89px;*/
 	  display: none;
 	}
 	.side-block-item.search form {
@@ -829,7 +838,6 @@ input[type=radio]:checked + .check_css:before {
 	  position: absolute;
 	  top: 60%;
 	  right: 13px;
-	  /*margin-top: -19px;*/
 	}
 	.side-block h5.down:after {content: url(../images/top/down_icon.png);}
 	.side-block h5 img {
@@ -846,7 +854,6 @@ input[type=radio]:checked + .check_css:before {
 	*****/
 	#cat-banner {
 	  margin:0;
-	  /*height:170px;*/
 	  height:auto;
 	}
 
@@ -881,8 +888,98 @@ input[type=radio]:checked + .check_css:before {
 	  padding: 10px;
 	}
 
+	/***** PRODUCT PAGE *****/
+	#item-details {
+	  width:116%;
+	  padding: 20px 15px;
+	  margin:0;
+	  margin-left:-8%;
+	}
+	
+	h1.item-name,
+	.item-number {
+	  text-align:left;
+	}
+	.slider-box {
+	  min-width: 100%;
+	  margin: 0;
+	  padding: 0;
+	  border-top: 1px solid #e3e8cf;
+	}
+	#display-img {
+	  width: 100%;
+	  padding:0;
+	}
+	#display-img img {
+	  width: 100%;
+	}
+	#list-img {
+	  text-align: left;
+	  width: 100%;
+	  margin: 0;
+	  padding: 0;
+	  margin-bottom: 3%;
+	  font-size:0;
+	}
+	#list-img li {
+	  box-sizing: border-box;
+	  width: 20%;
+	  height:auto;
+	  margin:0;
+	  padding:0;
+	  list-style: none;
+	}
+	#list-img li.paneling {
+	  box-sizing: border-box;
+	  padding-left: 1px;
+	}
 
+	.item-color {text-align:left;}
+	.item-color table th,
+	.item-color table td {
+	  width:33.3%;
+	  margin:0;
+	  padding: 5px auto;
+	  text-align: center;
+	}
+	.item-description {
+	  text-align: left;
+	}
+	.item-description table th {
+	  width:25%;
+	}
+	.item-description table td {
+	  padding:5px;
+	  text-align: left;
+	}
 
+	
+	.item-quantity {
+	  margin:0;
+	  padding:0;
+	}
+	.item-quantity > div.quantity-block {
+	  border-top: 1px solid #e3e8cf;
+	  height: auto;
+	  padding: 10px 0;
+	}
+	.item-quantity > div > p {
+	  margin:0;
+	  padding:0;
+	}
+	.item-quantity > div > p.title {
+	  margin: 10px 0;
+	  width: auto;
+	}
+	.item-quantity > div > p.value-area {margin:0;padding:0;}
+	.item-quantity > div.quantity-block.quant {
+	  border-bottom: 1px solid #e3e8cf;
+	}
+
+	.add-cart {
+	  clear:both;
+	  margin-top:3%;
+	}
 
 	
 }

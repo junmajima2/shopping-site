@@ -4,3 +4,13 @@ $(window).load(function(){
     $("#display-img img").attr("src", img_src);
   });
 });
+
+$(window).load(function(){
+  var topBtn=$('#page-top');
+  topBtn.click(function(){
+    $('body,html').animate({
+    scrollTop: 0},500);
+    return false;
+  });
+
+});

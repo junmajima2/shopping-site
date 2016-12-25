@@ -17,6 +17,7 @@
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="owlcarousel/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="js/carousel.js"></script>
+	<script type="text/javascript" src="js/toggle.js"></script>
 
 </head>
 <body>
@@ -24,10 +25,10 @@
 	<section id="cont-header" class="row container">
 
 		<a href="index.html" id="header-logo" class="four columns">
-			<img src="images/top/logo.png" srcset="images/top/logo@2x.png.png 2x" alt="APPLE BERRY" />
+			<img src="images/top/logo.png" srcset="images/top/logo@2x.png.png 2x" alt="APPLE BERRY">
 		</a>
 
-		<div id="header-menu" class="eight columns">
+		<div id="header-menu" class="pc eight columns">
 			<ul id="menu">
 				<li><a href="#"><img src="images/top/menu_login.png"></a></li>
 				<li><a href="#"><img src="images/top/menu_cart.png"></a></li>
@@ -36,6 +37,23 @@
 				<li><a href="#"><img src="images/top/facebook.png"></a></li>
 				<li><a href="#"><img src="images/top/insta.png"></a></li>
 			</ul>
+		</div>
+		<div id="header-menu-sp" class="sp twelve columns">
+			<ul id="menu-sp">
+				<li><a href="#"><img src="images/top_sp/fb.png" srcset="images/top_sp/fb@2x.png.png 2x" alt="APPLE BERRY"></a></li>
+				<li><a href="#"><img src="images/top_sp/insta.png" srcset="images/top_sp/insta@2x.png.png 2x" alt="APPLE BERRY"></a></li>
+				<li>
+				<a href="#">
+				<img id="sp-navi-btn" src="images/top_sp/menu_icon.png" srcset="images/top_sp/menu_icon@2x.png.png 2x" alt="APPLE BERRY">
+				</a>
+				</li>
+			</ul>
+	  <ul id="sp-navi-menu">
+            <li><a href="index.html">LOGIN</a></li>
+            <li><a href="#">CART</a></li>
+            <li><a href="#">MY PAGE</a></li>
+            <li><a href="#guide">SHOPPING GUIDE</a></li>
+          </ul>
 		</div>
 
 	</section>
@@ -50,14 +68,17 @@
 				<div><img src="images/top/ca_banner.jpg"></div>
 				<div><img src="images/top/ca_banner.jpg"></div>
 				<div><img src="images/top/ca_banner.jpg"></div>
-				<div><img src="images/top/ca_banner.jpg"></div>
-				<div><img src="images/top/ca_banner.jpg"></div>
 			</div>
 
 			<!-- /** NEW ITEMS **/ -->
 			<div class="twelve columns item-container-top">
 
-				<img src="images/top/title_newitems.png" class="twelve columns item-container-top-tab">
+				<div class="pc block-center">
+					<img src="images/top/title_newitems.png" class="twelve columns item-container-top-tab" alt="APPLE BERRY">
+				</div>
+				<div class="sp twelve columns block-center">
+					<img src="images/topi_sp/title_newitems.png" srcset="images/top_sp/title_new_item@2x.png.png 2x" class="item-container-top-tab" alt="APPLE BERRY">
+				</div>
 
 				<div class="sixteen columns item-boxs">
 
@@ -67,7 +88,7 @@
 						<p class="item-price">&yen;10,000 (tax in)</p>
 					</a>
 
-					<a href="products.html" class="four columns item-box item-box-center">
+					<a href="products.html" class="four columns item-box item-box-center item-box-sp-right">
 						<img src="images/top/item_02.jpg">
 						<p class="item-info">商品名が入ります商品名が入ります商品名が入ります</p>
 						<p class="item-price">&yen;10,000 (tax in)</p>
@@ -79,7 +100,7 @@
 						<p class="item-price">&yen;10,000 (tax in)</p>
 					</a>
 
-					<a href="products.html" class="four columns item-box">
+					<a href="products.html" class="four columns item-box item-box-sp-right">
 						<img src="images/top/item_04.jpg">
 						<p class="item-info">商品名が入ります商品名が入ります商品名が入ります</p>
 						<p class="item-price">&yen;10,000 (tax in)</p>
@@ -91,7 +112,7 @@
 						<p class="item-price">&yen;10,000 (tax in)</p>
 					</a>
 
-					<a href="products.html" class="four columns item-box">
+					<a href="products.html" class="four columns item-box item-box-sp-right">
 						<img src="images/top/item_06.jpg">
 						<p class="item-info">商品名が入ります商品名が入ります商品名が入ります</p>
 						<p class="item-price">&yen;10,000 (tax in)</p>
@@ -105,7 +126,12 @@
 			<!-- /** POPULAR ITEMS **/ -->
 			<div class="twelve columns item-container-top">
 
-				<img src="images/top/title_popular.png" class="twelve columns item-container-top-tab">
+				<div class="pc block-center">
+					<img src="images/top/title_popular.png" class="twelve columns item-container-top-tab" alt="APPLE BERRY">
+				</div>
+				<div class="sp twelve columns block-center">
+					<img src="images/topi_sp/title_popular.png" srcset="images/top_sp/title_popular@2x.png.png 2x" class="item-container-top-tab" alt="APPLE BERRY">
+				</div>
 
 				<div class="sixteen columns  item-boxs clearfix">
 
@@ -115,7 +141,7 @@
 						<p class="item-price">&yen;10,000 (tax in)</p>
 					</a>
 
-					<a href="products.html" class="four columns item-box item-box-center">
+					<a href="products.html" class="four columns item-box item-box-center item-box-sp-right">
 						<img src="images/top/item_08.jpg">
 						<p class="item-info">商品名が入ります商品名が入ります商品名が入ります</p>
 						<p class="item-price">&yen;10,000 (tax in)</p>
@@ -127,7 +153,7 @@
 						<p class="item-price">&yen;10,000 (tax in)</p>
 					</a>
 
-					<a href="products.html" class="four columns item-box">
+					<a href="products.html" class="four columns item-box item-box-sp-right">
 						<img src="images/top/item_10.jpg">
 						<p class="item-info">商品名が入ります商品名が入ります商品名が入ります</p>
 						<p class="item-price">&yen;10,000 (tax in)</p>
@@ -139,7 +165,7 @@
 						<p class="item-price">&yen;10,000 (tax in)</p>
 					</a>
 
-					<a href="products.html" class="four columns item-box">
+					<a href="products.html" class="four columns item-box item-box-sp-right">
 						<img src="images/top/item_12.jpg">
 						<p class="item-info">商品名が入ります商品名が入ります商品名が入ります</p>
 						<p class="item-price">&yen;10,000 (tax in)</p>
@@ -150,9 +176,15 @@
 			</div><!-- end twelve columns -->
 
 			<!-- /** GUIDE **/ -->
-			<div class="twelve columns item-container-top">
+			<div id="guide" class="twelve columns item-container-top">
 			
-				<div><img src="images/top/title_guide.png" class="twelve columns item-container-top-tab"></div>
+				<div class="pc block-center">
+					<img src="images/top/title_guide.png" class="twelve columns item-container-top-tab" alt="APPLE BERRY">
+				</div>
+				<div class="sp twelve columns block-center">
+					<img src="images/topi_sp/title_guide.png" srcset="images/top_sp/title_guide@2x.png.png 2x" class="item-container-top-tab" alt="APPLE BERRY">
+				</div>
+
 				
 				<div class="sixteen columns  item-boxs clearfix">
 				
@@ -188,7 +220,10 @@
 
 				<div class="side-block-item search clearfix">
 					<img src="images/top/itemserch.png" class="tab-search">
-					<form action="list.html" method="get"><input type="search" name="search" placeholder="Search.." class="search"><input type="image" src="images/top/search_icon.png" alt="submit" class="search-submit"></form>
+					<form action="list.html" method="get">
+					<input type="search" name="search" placeholder="Search.." class="search">
+					<input type="image" src="images/top/search_icon.png" alt="submit" class="search-submit">
+					</form>
 				</div>
 
 			</div>
@@ -223,9 +258,9 @@
 					<img src="images/top/about_img.jpg">
 					<p class="side-block-item-info">
 					お店の説明お店の説明お店の説明お店の説明お店の説明お店の説明お店の説明お店の説明
-					</p>
 					<!-- button type="submit" class="btn-more">MORE</button -->
 					<a href="#"><img src="images/top/more_btn.png" class="more"></a>
+					</p>
 
 				</div>
 
@@ -240,9 +275,9 @@
 					<img src="images/top/shopinfo_img.jpg">
 					<p class="side-block-item-info">
 					お店の説明お店の説明お店の説明お店の説明お店の説明お店の説明お店の説明お店の説明
-					</p>
 					<!-- button type="submit" class="btn-more">MORE</button -->
 					<a href="#"><img src="images/top/more_btn.png" class="more"></a>
+					</p>
 
 				</div>
 

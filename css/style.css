@@ -120,32 +120,33 @@ ul, li {
   margin-bottom: 8px;
 }
 
-.side-block h5 {
+.side-block .block-tab {
   position: relative;
   margin-bottom: 1px;
+  padding-left: 15px;
   background-color: #887f69;
   height: 45px;
 }
-.side-block h5[class^="tabtitle-"]:before {
+.side-block .block-tab[class^="tabtitle-"]:before {
   position: absolute;
   top: 50%;
   left: 15px;
   margin-top: -22px;
 }
-.side-block h5.tabtitle-pagelink:before {content: url(../images/top/pagelink.png);}
-.side-block h5.tabtitle-categories:before {content: url(../images/top/categories.png);}
-.side-block h5.tabtitle-about:before {content: url(../images/top/about.png);}
-.side-block h5.tabtitle-shop_info:before {content: url(../images/top/shop_info.png);}
-.side-block h5.down:after,
-.side-block h5.allow:after {
+.side-block .block-tab.tabtitle-pagelink:before {content: url(../images/top/pagelink.png);}
+.side-block .block-tab.tabtitle-categories:before {content: url(../images/top/categories.png);}
+.side-block .block-tab.tabtitle-about:before {content: url(../images/top/about.png);}
+.side-block .block-tab.tabtitle-shop_info:before {content: url(../images/top/shop_info.png);}
+.side-block .block-tab.down:after,
+.side-block .block-tab.allow:after {
   content: url(../images/top/next_icon.png);
   position: absolute;
   top: 50%;
   right: 13px;
   margin-top: -19px;
 }
-.side-block h5.down:after {content: url(../images/top/down_icon.png);}
-.side-block h5 img {
+.side-block .block-tab.down:after {content: url(../images/top/down_icon.png);}
+.side-block .block-tab img {
   margin-left: 15px;
 }
 
@@ -825,30 +826,30 @@ input[type=radio]:checked + .check_css:before {
 	  text-align: left;
 	  word-wrap: break-word;
 	}
-	.side-block h5 {
+	.side-block div.block-tab {
 	  position: relative;
 	  margin-bottom: 1px;
 	  background-color: #887f69;
 	  height: 45px;
 	}
-	.side-block h5[class^="tabtitle-"]:before {
+	.side-block div.block-tab[class^="tabtitle-"]:before {
 	  position: absolute;
 	  top: 64%;
 	  left: 15px;
 	}
-	.side-block h5.tabtitle-pagelink:before {content: url(../images/top/pagelink.png);}
-	.side-block h5.tabtitle-categories:before {content: url(../images/top/categories.png);}
-	.side-block h5.tabtitle-about:before {content: url(../images/top/about.png);}
-	.side-block h5.tabtitle-shop_info:before {content: url(../images/top/shop_info.png);}
-	.side-block h5.down:after,
-	.side-block h5.allow:after {
+	.side-block div.block-tab.tabtitle-pagelink:before {content: url(../images/top/pagelink.png);}
+	.side-block div.block-tab.tabtitle-categories:before {content: url(../images/top/categories.png);}
+	.side-block div.block-tab.tabtitle-about:before {content: url(../images/top/about.png);}
+	.side-block div.block-tab.tabtitle-shop_info:before {content: url(../images/top/shop_info.png);}
+	.side-block div.block-tab.down:after,
+	.side-block div.block-tab.allow:after {
 	  content: url(../images/top/next_icon.png);
 	  position: absolute;
 	  top: 60%;
 	  right: 13px;
 	}
-	.side-block h5.down:after {content: url(../images/top/down_icon.png);}
-	.side-block h5 img {
+	.side-block div.block-tab.down:after {content: url(../images/top/down_icon.png);}
+	.side-block div.block-tab img {
 	  margin-left: 15px;
 	}
 	

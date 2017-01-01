@@ -120,52 +120,40 @@ ul, li {
   margin-bottom: 8px;
 }
 
+.side-block h5 {margin:0;padding:0;}
 .side-block .block-tab {
   position: relative;
+  padding: 8px 15px 15px 15px;
   margin-bottom: 1px;
-  padding-left: 15px;
   background-color: #887f69;
-  height: 45px;
 }
-.side-block .block-tab[class^="tabtitle-"]:before {
-  position: absolute;
-  top: 50%;
-  left: 15px;
-  margin-top: -22px;
-}
+.side-block .block-tab img {margin:0;padding:0;}
 .side-block .block-tab.tabtitle-pagelink:before {content: url(../images/top/pagelink.png);}
 .side-block .block-tab.tabtitle-categories:before {content: url(../images/top/categories.png);}
 .side-block .block-tab.tabtitle-about:before {content: url(../images/top/about.png);}
 .side-block .block-tab.tabtitle-shop_info:before {content: url(../images/top/shop_info.png);}
+.side-block .block-tab.allow:after {content: url(../images/top/next_icon.png);}
+.side-block .block-tab.down:after {content: url(../images/top/down_icon.png);}
 .side-block .block-tab.down:after,
 .side-block .block-tab.allow:after {
-  content: url(../images/top/next_icon.png);
   position: absolute;
-  top: 50%;
-  right: 13px;
-  margin-top: -19px;
+  right: 15px;
 }
-.side-block .block-tab.down:after {content: url(../images/top/down_icon.png);}
-.side-block .block-tab img {
-  margin-left: 15px;
-}
+
 
 .side-block ul {}
 .side-block ul > li {
   position: relative;
-  height: 45px;
-  line-height: 45px;
-  padding-left: 15px;
+  padding: 15px;
   margin-bottom: 2px;
   background-color: #FFF;
 }
 .side-block ul li:after {
-  content: url(../images/top/next_icon_gray.png);
   position: absolute;
-  top: 50%;
-  right: 10px;
-  margin-top: -20px;
+  content: url(../images/top/next_icon_gray.png);
+  right: 15px;
 }
+
 
 .side-block-item {
   padding: 10px 10px 5px 10px;
@@ -785,6 +773,10 @@ input[type=radio]:checked + .check_css:before {
 	/******
 	  Side Block
 	******/
+	/*****
+	  Side Bar : #side-bar
+	*****/
+
 	/*** search ***/
 	.side-block-item.search {}
 	.side-block-item.search img.tab-search {
@@ -830,32 +822,6 @@ input[type=radio]:checked + .check_css:before {
 	  padding: 0 6px;
 	  text-align: left;
 	  word-wrap: break-word;
-	}
-	.side-block div.block-tab {
-	  position: relative;
-	  margin-bottom: 1px;
-	  background-color: #887f69;
-	  height: 45px;
-	}
-	.side-block div.block-tab[class^="tabtitle-"]:before {
-	  position: absolute;
-	  top: 64%;
-	  left: 15px;
-	}
-	.side-block div.block-tab.tabtitle-pagelink:before {content: url(../images/top/pagelink.png);}
-	.side-block div.block-tab.tabtitle-categories:before {content: url(../images/top/categories.png);}
-	.side-block div.block-tab.tabtitle-about:before {content: url(../images/top/about.png);}
-	.side-block div.block-tab.tabtitle-shop_info:before {content: url(../images/top/shop_info.png);}
-	.side-block div.block-tab.down:after,
-	.side-block div.block-tab.allow:after {
-	  content: url(../images/top/next_icon.png);
-	  position: absolute;
-	  top: 60%;
-	  right: 13px;
-	}
-	.side-block div.block-tab.down:after {content: url(../images/top/down_icon.png);}
-	.side-block div.block-tab img {
-	  margin-left: 15px;
 	}
 	
 	#page-top {

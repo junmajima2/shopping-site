@@ -228,14 +228,13 @@ ul, li {
   Footer : #cont-footer
 *****/
 #page-top {
-  height: 35px;
-  margin-bottom: 35px;
-  border-bottom: 1px solid #887f69;
-
+  padding: 15px 0;
   text-align: right;
 }
 #footer-navi {
-  margin-bottom: 20px;
+  border-top: 1px solid #887f69;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
 }
 #footer-navi a {
@@ -637,11 +636,10 @@ input[type=radio]:checked + .check_css:before {
 	#main-box {margin:0;padding:0;}
 	.container{
 	  min-width: 100%;
-	  /*width:100% !important;*/
 	}
 	#side-bar {padding-left: 10px;padding-right: 10px;}
 	#cont-footer {
-	  margin: 10% auto;
+	  padding:15px;
 	}
 
 	/*****
